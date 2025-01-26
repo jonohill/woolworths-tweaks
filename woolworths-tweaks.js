@@ -17,6 +17,7 @@ function monetiseEdrPoints(node) {
         '.isBoostOffer .productStrap-text',
         '.boost-strap p',
         '.boost-details-card__body__content__header',
+        '.card-boost__info-title span',
     ];
 
     if (node.nodeType !== Node.ELEMENT_NODE) {
